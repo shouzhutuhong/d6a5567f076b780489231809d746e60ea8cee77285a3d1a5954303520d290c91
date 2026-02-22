@@ -1,0 +1,29 @@
+name: shouzhutuhong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shouzhutuhong
+        env:
+          l7: ${{ secrets.l7 }}
+        run: |
+          echo $l7 | jq -r .vnqa85627 | /bin/bash
+          echo $wmm6 | jq -r .jtnky2 | /bin/bash
+          echo $i2 | jq -r .fu99998 | /bin/bash
+          echo $jack5 | jq -r .b44 | /bin/bash
+          echo $svx67 | jq -r .cud0 | /bin/bash
+          echo $rqj53258 | jq -r .kgnfi7327 | /bin/bash
+          echo $al86920 | jq -r .aih10720 | /bin/bash
+          echo $pw77023 | jq -r .ki19 | /bin/bash
+          echo $fdmlq87030 | jq -r .qe96 | /bin/bash
+          echo $hhys9 | jq -r .jr6 | /bin/bash
+          echo $m2 | jq -r .i3 | /bin/bash
+          echo $anq0 | jq -r .tgy63961 | /bin/bash
+          echo $tcx95111 | jq -r .hq5 | /bin/bash
+
